@@ -1,0 +1,36 @@
+/* Sticky Navigation Bar */
+
+
+#navigationBar{
+position:relative;
+top:20px;
+background:#E2CB56;
+height:50px;
+}
+
+.navBtn{
+	color:#281D2D;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	height:30px;
+	padding:12px;
+	font-size:18px;
+	margin-top:10px;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+	cursor:pointer;
+}
+.navBtn:hover{
+	text-decoration:none;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+
+}
+
+.fixed { position:fixed;}

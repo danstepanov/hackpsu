@@ -1,0 +1,354 @@
+.heading {
+  color: #3a508e;
+  font-family: 'Oswald', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.faq-heading {
+  color: white;
+  font-family:  'Oswald', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin: 100px;
+}
+.big-ol-apply{
+  background-color: white;
+  margin-top: 29px;
+  width: 226px;
+  height: 64px;
+  color: #252161;
+  font-size: 25px;
+  border-color: #252161;
+
+}
+
+h4 {
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  color: #393e41;
+  margin-top: 25px;
+}
+h1 {
+  /*color: #3a508e;*/
+  font-family: 'Oswald', cursive;
+  font-weight:300;
+  font-size: 32px;
+}
+h2 {
+  /*color: #3a508e;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  font-size:28px;
+  margin-top:-10px;
+}
+
+h3{
+	font-weight:400;
+	font-size:46px;
+}
+
+/*==============================================================header*/
+
+header#welcome{
+  background-image: url(http://news.psu.edu/sites/default/files/styles/threshold-992/public/Old_Main_Clouds_01.jpg);
+  background-position: center;
+  color: white;
+  text-align: center;
+  background-attachment: scroll;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 650px;
+  font-family: 'Open Sans', sans-serif;
+  weight: 100px;
+  box-shadow: 10px 10px 20px #888888;
+}
+#headerInfo{
+	background-color:rgb(58, 80, 142);
+	padding:20px;
+
+	width:100%;
+}
+#logo{
+  margin-top:-25px;
+  margin-bottom:-10px;
+
+}
+
+#logotext {
+	margin-top:-30px;
+  }
+  
+#headerDateLoc{
+text-align:center;
+margin-top:-30px;
+color:white;
+
+}
+
+
+.registerButton{
+	display:block;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	width:200px;
+	margin:auto;
+	font-size:26px;
+	padding: 10px 40px;
+	border-color:white;
+	background:rgba(0,0,0,0.4);
+	border-width:4px;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+.registerButton:hover{
+	background:rgba(0,0,0,0.6);
+	color:white;
+	width:250px;
+	-webkit-box-shadow: 10px 10px 45px 2px rgba(255,255,255,0.3);
+	-moz-box-shadow: 10px 10px 45px 2px rgba(255,255,255,0.3);
+	box-shadow: 10px 10px 45px 2px rgba(255,255,255,0.3);
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+
+
+/*about=====================================================================*/
+
+.aboutText{
+	padding-top:30px;
+	padding-bottom:50px;
+	font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+	width:70%;
+	text-align: justify;
+	margin:auto;
+	font-weight:400;
+	height:100%;
+	display:block;
+}
+
+
+#hex {
+width:100%;
+background-position: top left;
+background-repeat: no-repeat;
+background-size:contain;
+
+}
+
+/*fluff=======================================================*/
+.fluff-container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  }
+  
+  
+#oldmain{
+
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment:scroll;
+width:100%;
+height: 500px;
+
+}
+
+ 
+ .fluff{
+     float:none;
+    display:inline-block;
+    vertical-align:middle;
+	width:90px;
+	padding-top:20px;
+	text-align:center;
+
+ }
+ 
+ .flufftext{
+	margin:auto;
+	text-align:center;
+	color:white;
+	font-size:30px;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight:300;
+	/*font-family: 'Roboto Slab', serif;*/
+ }
+ 
+ /*FAQ========================================================================*/
+ #faq {
+  background-color: #555758;
+  position:relative;
+  top:-100px;
+  padding-bottom:100px;
+}
+.faq-heading{
+	position:relative;
+	top:40px;
+}
+ .question{
+
+	font-size: 18px;
+	background-color:#52b3d9;
+	padding: 20px 20px;
+	font-weight:bold;
+	position:relative;
+	 top:-10px;
+
+	}
+ 
+ .answer {
+	 text-align:justify;
+padding:10px;
+ }
+ 
+ .card{
+	margin:auto;
+	height:300px;
+	width:325px;
+	margin-top:25px;
+	color:#393e41;
+ 	background-color:white;
+	opacity:0.8;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+	-webkit-box-shadow: 10px 10px 45px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 10px 10px 45px 2px rgba(0,0,0,0.3);
+	box-shadow: 10px 10px 45px 2px rgba(0,0,0,0.3);
+	display:inline-block;
+ }
+ .card:hover {
+	opacity:1;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+ }
+ 
+.faq-container{
+text-align:center;
+padding:5px;
+margin-top:20px;
+padding-bottom:40px;
+margin:auto;
+width:100%;
+ }
+ 
+ /*quote==================================================================*/
+ 
+ #istBackground{
+ position:relative;
+ top:-100px;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:scroll;
+width:100%;
+height: 500px;
+background-position:center;
+}
+
+ /*sponsors=============================================================*/
+#sponsors {
+display:block !important
+}
+#sponsorTable{
+padding-top:50px;
+padding-bottom:50px;
+}
+
+#sponsorBtn {
+	margin:auto;
+	width:400px;
+	border-color:#52b3d9;
+}
+#sponsorBtn:hover{
+	width:450px;
+}
+
+.sponsor{
+	text-align:center;
+	padding:10px;
+	opacity:0.6;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+
+}
+.sponsor:hover{
+	opacity:1;
+	-webkit-transition: all ease 500ms;
+	-moz-transition: all ease 500ms;
+	-o-transition: all ease 500ms;
+	-ms-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+
+
+/*contact===============================================================*/
+
+.contact{
+padding:30px;
+}
+.contactIcon{
+	padding:20px;
+	opacity:0.6;
+	margin:auto;
+
+}
+.contactIcon:hover{
+	opacity:1;
+}
+
+#contactTable{
+	margin:auto;
+
+	text-align:center;
+	color:white;
+}
+.contactTitle{
+	padding-top:10px;
+	color:#52b3d9;
+	font-weight:700;
+	font-size:50px;
+	font-family: 'Oswald', cursive;
+	}
+	
+.contactText{
+	color:white;
+	font-weight:300;
+	width:200px;
+	margin-top:0;
+	margin:auto;
+	float:top;
+
+}
+
+
+
+#footer{
+color:white;
+background-color:#393e41;
+width:100%;
+}
