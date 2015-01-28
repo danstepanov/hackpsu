@@ -55,6 +55,11 @@ body {
 	
 }
 
+
+.logo {
+	max-width:90%;
+}
+
 .heading {
   font-family: 'Oswald', cursive;
   font-weight: 400;
@@ -106,27 +111,6 @@ header#welcome{
 }
 /*about=====================================================================*/
 
-.aboutText{
-	padding-top:30px;
-	padding-bottom:50px;
-	font-family: 'Open Sans', sans-serif;
-    font-size:20px;
-	width:70%;
-	text-align: justify;
-	margin:auto;
-	font-weight:400;
-	height:100%;
-	display:block;
-}
-
-
-#hex {
-width:100%;
-background-position: top left;
-background-repeat: no-repeat;
-background-size:contain;
-
-}
 
 /*fluff=======================================================*/
 .fluff-container{
