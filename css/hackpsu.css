@@ -64,6 +64,11 @@ body {
 	font-weight:600;
 }
 
+.divider {
+	background:#E2CB56;
+	width:90%;
+	height:15px;
+}
 
 .logo {
 	max-width:90%;
