@@ -68,6 +68,7 @@ body {
 	background:#E2CB56;
 	width:90%;
 	height:15px;
+	text-align:center;
 }
 
 .logo {
@@ -116,7 +117,7 @@ header#welcome{
   height: 768px;
 }
 
-.button {
+.yellowbutton {
 	font-size:200%;
 	background:#E2CB56;
 	color:#281D2D; 
