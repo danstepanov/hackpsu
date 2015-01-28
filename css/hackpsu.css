@@ -66,6 +66,8 @@ body {
 	width:auto;
 	height:auto;
 	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
 }
 
 .heading {
@@ -111,10 +113,11 @@ header#welcome{
 	background:#E2CB56;
 	color:#281D2D; 
 	padding:10px; 
-	margin:10px; 
 	font-family:'Oswald', cursive; 
 	border-radius:12px;
 	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
 	
 }
 
