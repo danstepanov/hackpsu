@@ -132,6 +132,7 @@ header#welcome{
 	text-align:center;
 	margin-right:auto;
 	margin-left:auto;
+	white-space: normal;
 	
 } .yellowbutton:hover{
 	background: #B7A142;
