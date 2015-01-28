@@ -79,7 +79,7 @@ header#welcome{
 }
 
 .button {
-	font-size:30px;
+	font-size:200%;
 	background:#E2CB56;
 	color:#281D2D; 
 	padding:10px; 
@@ -87,6 +87,12 @@ header#welcome{
 	font-family:'Oswald', cursive; 
 	border-radius:12px
 	
+}
+
+.hackpsunav {
+	background:#E2CB56;
+	font-family:'Oswald', sans-serif;
+	font-weight:700;
 }
 /*about=====================================================================*/
 
