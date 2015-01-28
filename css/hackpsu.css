@@ -209,8 +209,6 @@ height: 500px;
  /*quote==================================================================*/
  
  #istBackground{
- position:relative;
- top:-100px;
 background-repeat: no-repeat;
 background-size:cover;
 background-attachment:scroll;
@@ -222,10 +220,6 @@ background-position:center;
  /*sponsors=============================================================*/
 #sponsors {
 display:block !important
-}
-#sponsorTable{
-padding-top:50px;
-padding-bottom:50px;
 }
 
 #sponsorBtn {
