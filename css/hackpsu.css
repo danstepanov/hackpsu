@@ -92,7 +92,7 @@ header#welcome{
 
 .hackpsunav {
 	background:#E2CB56 !important;
-	color:#281D2D;
+	color:#281D2D !important;
 	font:700 150% 'Oswald', sans-serif;
 	text-transform: uppercase;
 	border:none !important;
@@ -102,7 +102,7 @@ header#welcome{
 .hackpsunavbtn {
 	background:#E2CB56;
 } .hackpsunavbtn:hover {
-	background:#BFA537;
+	background:#BFA537 !important;
 }
 /*about=====================================================================*/
 
