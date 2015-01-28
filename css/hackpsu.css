@@ -191,16 +191,7 @@ height: 500px;
  }
  
  /*FAQ========================================================================*/
- #faq {
-  background-color: #555758;
-  position:relative;
-  top:-100px;
-  padding-bottom:100px;
-}
-.faq-heading{
-	position:relative;
-	top:40px;
-}
+
  .question{
 	font: bold 150% 'Open Sans', sans-serif;
 	color:#2F6FAD;
