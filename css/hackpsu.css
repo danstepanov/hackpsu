@@ -130,6 +130,9 @@ header#welcome{
 	margin-right:auto;
 	margin-left:auto;
 	
+} .yellowbutton:hover{
+	background: #B7A142;
+	color:#281D2D; 
 }
 
 .hackpsunav {
