@@ -191,56 +191,15 @@ height: 500px;
 	top:40px;
 }
  .question{
-
-	font-size: 18px;
-	background-color:#52b3d9;
-	padding: 20px 20px;
-	font-weight:bold;
-	position:relative;
-	 top:-10px;
-
+	font: bold 150% 'Open Sans', sans-serif;
+	color:#2F6FAD;
 	}
  
  .answer {
-	 text-align:justify;
-padding:10px;
+	font: 300 150% 'Open Sans', sans-serif;
  }
  
- .card{
-	margin:auto;
-	height:300px;
-	width:325px;
-	margin-top:25px;
-	color:#393e41;
- 	background-color:white;
-	opacity:0.8;
-	-webkit-transition: all ease 500ms;
-	-moz-transition: all ease 500ms;
-	-o-transition: all ease 500ms;
-	-ms-transition: all ease 500ms;
-	transition: all ease 500ms;
-	-webkit-box-shadow: 10px 10px 45px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: 10px 10px 45px 2px rgba(0,0,0,0.3);
-	box-shadow: 10px 10px 45px 2px rgba(0,0,0,0.3);
-	display:inline-block;
- }
- .card:hover {
-	opacity:1;
-	-webkit-transition: all ease 500ms;
-	-moz-transition: all ease 500ms;
-	-o-transition: all ease 500ms;
-	-ms-transition: all ease 500ms;
-	transition: all ease 500ms;
- }
- 
-.faq-container{
-text-align:center;
-padding:5px;
-margin-top:20px;
-padding-bottom:40px;
-margin:auto;
-width:100%;
- }
+
  
  /*quote==================================================================*/
  
