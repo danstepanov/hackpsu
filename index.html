@@ -12,28 +12,32 @@
         <script type="text/javascript" src="js/navbar.js"></script>
     </head>
     <body>
-        <div id="navigationBar" style="position:fixed; top:0; z-index:100; background:#E2CB56; width:100%;color:#281D2D;">  
-            <table style="float:right; margin-right:5%; height:100%;"> 
-                <tr>
-                    <td>
-                        <a href="/" style="color:#281D2D; font-family:'Oswald', cursive;" class="navBtn homebtn" title="home">HOME</a>
-                    </td> 
-                    <td>
-                        <a href="#about" style="color:#281D2D; font-family:'Oswald', cursive;" class="navBtn aboutbtn" title="about">ABOUT</a>
-                    </td> 
-                    <td>
-                        <a href="#faq" style="color:#281D2D; font-family:'Oswald', cursive;" class="navBtn faqbtn" title="faq">FAQ</a>
-                    </td> 
-                    <!--<td><a class="navBtn " title="Judges" href="LINK">JUDGES</a></td> -->
-                    <td>
-                        <a href="#sponsors" style="color:#281D2D; font-family:'Oswald', cursive;" class="navBtn sponsorbtn" title="sponsors">SPONSORS</a>
-                    </td> 
-                    <td>
-                        <a href="#contact" style="color:#281D2D; font-family:'Oswald', cursive;" class="navBtn contactsbtn" title="footer">CONTACT</a>
-                    </td>
-                </tr>
-            </table> 
-	   </div>
+    	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">HackPSU/a>
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling --> 
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="/">home</a></li>
+	        <li><a href="#about">about</a></li>
+	        <li><a href="#faq">faq</a></li>
+	        <li><a href="#sponsors">sponsors</a></li>
+	        <li><a href="#contact">contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+
        <header id = "welcome" style="height:700px;background: url(http://news.psu.edu/sites/default/files/styles/threshold-992/public/Old_Main_Clouds_01.jpg) no-repeat center center fixed;   -webkit-background-size: cover;
   -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
             <div class = "container">
@@ -51,7 +55,7 @@
         </header>
         <section id = "about">
 	        <div class = "aboutText">
-	            <h1 class = "heading">We Are HackPSU.</h1>
+	            <h1 class = "heading">WE ARE HackPSU.</h1>
 	            <p  style="font-size:28px; line-height:240%; padding:30px; text-align:center" id="about">
 	                Join us at 
 	                <span style="color:#2F6FAD; font-weight:600;">Penn State</span>
