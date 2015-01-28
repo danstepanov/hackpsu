@@ -55,11 +55,17 @@ body {
 	
 }
 
+.highlight {
+	color:#2F6FAD; 
+	font-weight:600;
+}
+
 
 .logo {
 	max-width:90%;
 	width:auto;
 	height:auto;
+	text-align:center;
 }
 
 .heading {
@@ -69,6 +75,20 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+/*text colors ===================================================== */
+.yellow {
+	color:#E2CB56;
+}
+
+.navy {
+	color:#281D2D;
+}
+
+.white {
+	color:#FFFFFF;
+}
+
 
 /*==============================================================header*/
 
@@ -93,7 +113,8 @@ header#welcome{
 	padding:10px; 
 	margin:10px; 
 	font-family:'Oswald', cursive; 
-	border-radius:12px
+	border-radius:12px;
+	text-align:center;
 	
 }
 
