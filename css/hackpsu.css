@@ -91,7 +91,7 @@ header#welcome{
 }
 
 .hackpsunav {
-	background:#E2CB56;
+	background:#E2CB56 !important;
 	font-family:'Oswald', sans-serif;
 	font-weight:700;
 	font-size:150%;
