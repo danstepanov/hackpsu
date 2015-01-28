@@ -55,6 +55,10 @@ body {
 	
 }
 
+.section {
+	padding:20px;
+}
+
 .highlight {
 	color:#2F6FAD; 
 	font-weight:600;
@@ -71,11 +75,10 @@ body {
 }
 
 .heading {
-  font-family: 'Oswald', cursive;
-  font-weight: 400;
-  font-size: 200%;
+  font:400 300% 'Oswald', cursive;
   text-align: center;
   text-transform: uppercase;
+  padding:10px;
 }
 
 /*text colors ===================================================== */
