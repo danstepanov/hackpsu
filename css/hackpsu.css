@@ -93,6 +93,9 @@ header#welcome{
 	background:#E2CB56;
 	font-family:'Oswald', sans-serif;
 	font-weight:700;
+	font-size:150%;
+	text-transform: uppercase;
+	
 }
 /*about=====================================================================*/
 
