@@ -201,10 +201,12 @@ height: 500px;
  .question{
 	font: bold 150% 'Open Sans', sans-serif;
 	color:#2F6FAD;
+	text-align:left;
 	}
  
  .answer {
 	font: 300 150% 'Open Sans', sans-serif;
+	text-align:left;
  }
  
 
