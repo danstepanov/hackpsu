@@ -57,6 +57,7 @@ body {
 
 .section {
 	padding:20px;
+	display:block;
 }
 
 .highlight {
@@ -66,9 +67,10 @@ body {
 
 .divider {
 	background:#E2CB56;
-	width:90%;
+	width:80%;
 	height:15px;
-	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
 }
 
 .logo {
