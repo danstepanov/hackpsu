@@ -1,21 +1,3 @@
-$(document).ready(function() {
- //Calculate the height of <header>
- //Use outerHeight() instead of height() if have padding
-    var aboveHeight = $('header').outerHeight();
- // when scroll
-    $(window).scroll(function(){
-  //if scrolled down more than the header's height
-  if ($(window).scrollTop() > aboveHeight){
-   // if yes, add "fixed" class to the <sticknav>
-   // add padding top to the #content (value is same as the height of the sticknav)
-            $('sticknav').addClass('fixed').css('top','0').next().css('padding-top','60px');
-        } else {
-   // when scroll up or less than aboveHeight, remove the "fixed" class, and the padding-top
-            $('sticknav').removeClass('fixed').next().css('padding-top','0');
-        }
-    });
-});
-
 
 $( document ).ready(function() {
     console.log( "ready!" );
@@ -33,9 +15,9 @@ $( document ).ready(function() {
 	$( '.aboutbtn' ).click(function() {
 		console.log( "scrolling" );
 		$('html, body').animate({
-			scrollTop: $("#explanation").offset().top
+			scrollTop: $("#about").offset().top
 			}, 1000);
-		window.location = "index.html#explanation";
+		window.location = "index.html#about";
 	});
 	
 	$( '.faqbtn' ).click(function() {
@@ -57,8 +39,9 @@ $( document ).ready(function() {
 	$( '.contactsbtn' ).click(function() {
 		console.log( "scrolling" );
 		$('html, body').animate({
-			scrollTop: $("#contactTable").offset().top
+			scrollTop: $("#contact").offset().top
 			}, 1000);
+		window.location = "index.html#contact";
 	});
 });
 
