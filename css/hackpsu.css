@@ -60,6 +60,7 @@ body {
   font-weight: 400;
   font-size: 200%;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /*==============================================================header*/
@@ -96,6 +97,10 @@ header#welcome{
 	font-size:150%;
 	text-transform: uppercase;
 	
+}
+
+.hackpsunavbtn {
+	background:#E2CB56;
 }
 /*about=====================================================================*/
 
