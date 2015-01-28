@@ -255,7 +255,7 @@ display:block !important
 /*contact===============================================================*/
 
 .contact{
-padding:30px;
+display:block;
 }
 .contactIcon{
 	padding:20px;
@@ -293,8 +293,3 @@ padding:30px;
 
 
 
-#footer{
-color:white;
-background-color:#393e41;
-width:100%;
-}
