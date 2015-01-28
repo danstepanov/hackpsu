@@ -218,18 +218,6 @@ background-position:center;
 }
 
  /*sponsors=============================================================*/
-#sponsors {
-display:block !important
-}
-
-#sponsorBtn {
-	margin:auto;
-	width:400px;
-	border-color:#52b3d9;
-}
-#sponsorBtn:hover{
-	width:450px;
-}
 
 .sponsor{
 	text-align:center;
